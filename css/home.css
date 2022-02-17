@@ -32,7 +32,7 @@ h1 {
 }
 
 #apresentacao img {
-    width: 50px;
+    width: 250px;
 }
 
 #slogan {
@@ -44,4 +44,59 @@ h1 {
 
 #slogan > span {
     color: #09157D;
+}
+
+/* SEGUNDA SECAO */
+
+.nuvens-secundarias {
+    display: inline-block;
+    position: relative;
+}
+
+.nuvens-secundarias div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 170px;
+}
+
+.nuvens-secundarias:first-child {
+    background-image: url("../midias/nuvem-secundaria1.svg");
+    left: 8%;
+}
+
+.nuvens-secundarias:last-child {
+    background-image: url("../midias/nuvem-secundaria2.svg");
+}
+
+#quem-somos {
+    background-color: #ACE8F0;
+    margin-top: -5px;
+}
+
+#quem-somos div {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding: 40px 0;
+}
+
+#nuvem-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    background-image: url("../midias/nuvem-principal.svg");
+}
+
+#nuvem-principal p {
+    width: calc(calc((750px * 1.2)));
+    margin-left: calc(750px * 0.12);
+}
+
+#ultima-nuvem {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
 }

@@ -108,3 +108,109 @@ footer p:last-child {
 footer span{
     color: #EFDB29;
 }
+
+
+@media (min-width: 320px) and (max-width: 599px) {
+    
+    /* HEADER */
+
+    header img {
+        width: 60px;
+    }
+
+    #telas-maiores {
+        display: none;
+    }
+
+    #telas-menores {
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        max-width: 300px;
+    }
+
+    #telas-menores a {
+        font-size: 1.4rem;
+    }
+
+    /* FOOTER */
+
+    footer p:first-child{
+        font-size: 1.7rem;
+    }
+
+    footer p:last-child {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+    /* HEADER */
+
+    #telas-maiores {
+        display: none;
+    }
+
+    #telas-menores {
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+    }
+
+    #telas-menores a {
+        font-size: 1.6rem;
+    }
+
+    /* FOOTER */
+
+    footer p:first-child{
+        font-size: 2rem;
+    }
+
+    footer p:last-child {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* HEADER */
+
+    #telas-maiores {
+        display: none;
+    }
+
+    #telas-menores {
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+    }
+
+    #telas-menores a {
+        font-size: 2rem;
+    }
+
+    /* FOOTER */
+
+    footer p:first-child{
+        font-size: 2.3rem;
+    }
+
+    footer p:last-child {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* HEADER */
+
+    #telas-maiores a {
+        font-size: 2rem;
+    }
+    
+}

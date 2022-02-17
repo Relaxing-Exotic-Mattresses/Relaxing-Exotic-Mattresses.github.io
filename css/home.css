@@ -1,0 +1,47 @@
+/* GLOBAL */
+
+h2 {
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*PRIMEIRA SEÇÃO */
+
+h1 {
+    font-size: 7rem;
+    color: #09157D;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#landing {
+    background-color: #CEF2F6;
+    padding-top: 80px;
+}
+
+#apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nova Round", sans-serif;
+    font-size: 7rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#apresentacao img {
+    width: 50px;
+}
+
+#slogan {
+    font-family: "Poller One", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #EFDB29;
+}
+
+#slogan > span {
+    color: #09157D;
+}

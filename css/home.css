@@ -100,3 +100,52 @@ h1 {
     justify-content: flex-end;
     margin-right: 10%;
 }
+
+/* TEERCEIRA SECAO */
+
+.acontecimento {
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+}
+
+.acontecimento > div:not(.divisao) {
+    padding: 15px 0;
+}
+
+.acontecimento img {
+    max-width: 75%;
+}
+
+.imagem-ilustrativa {
+    display: flex;
+    justify-content: center;
+}
+
+.divisao {
+    background-color: black;
+    height: 100%;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao p {
+    margin: 0 12.5%;
+}
+
+.descricao p:first-child {
+    margin-bottom: 10px;
+}
+
+#nossa-historia {
+    background-color: #A7D0F5;
+}
+
+#linha-do-tempo {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+}

@@ -149,3 +149,53 @@ h1 {
     flex-direction: column;
     padding: 80px 0;
 }
+
+/* QUARTA SECAO */
+
+.quadrado {
+    display: flex;
+    width: 55vw;
+    background-color: #ACE8F0;
+    border-radius: 30px;
+    border: solid 5px #09157D;
+    padding: 40px 0;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.quadrado p {
+    color: black;
+    font-size: 3rem;
+    margin: auto;
+    padding: 15px;
+}
+
+#portfolio {
+    background-color: #8aaae8;
+    padding-bottom: 80px;
+}
+
+#portfolio h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    background-color: #09157D;
+    border-radius: 140px;
+    margin: auto;
+}
+
+#box img {
+    width: 70px;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+#box h3 {
+    font-size: 4rem;
+    color: #EFDB29;
+}

@@ -123,12 +123,19 @@ h1 {
     align-items: center;
 }
 
+.acontecimento:nth-child(even) .descricao {
+    align-items: flex-end;
+    text-align: right;
+}
+
 .acontecimento > div:not(.divisao) {
     padding: 15px 0;
 }
 
-.acontecimento img {
-    max-width: 75%;
+.acontecimento img, .acontecimento p {
+    width: 40%;
+    min-width: 120px;
+    max-width: 600px;
 }
 
 .imagem-ilustrativa {
@@ -147,11 +154,15 @@ h1 {
 }
 
 .descricao p {
+    font-size: 2.3rem;
     margin: 0 12.5%;
 }
 
 .descricao p:first-child {
-    margin-bottom: 10px;
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #09157D;
+    margin-bottom: 20px;
 }
 
 #nossa-historia {

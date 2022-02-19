@@ -38,7 +38,7 @@ envio.addEventListener("click", () => {
 
     tambemConhecidoComo.forEach(checagem);
 
-    if (nossoProfessorFavorito > 1) {
+    if (nossoProfessorFavorito > 1 && window.screen.width == 1366 && window.screen.height == 768) {
         modal.style.display = "flex";
         modal.style.animationName = "aparecer";
 

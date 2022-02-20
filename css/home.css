@@ -349,6 +349,54 @@ h1 {
         padding: 40px 0;
     }
 
+    /* QUARTA SECAO */
+
+    .quadrado {
+        width: 70vw;
+        padding: 10px 0;
+    }
+
+    .quadrado p {
+        font-size: 2rem;
+    }
+
+    #box {
+        width: 80vw;
+    }
+
+    #box img {
+        width: 35px;
+    }
+
+    #box h3 {
+        font-size: 2.7rem;
+    }
+    
+    /* QUINTA SECAO  */
+
+    #curiosidades ul {
+        font-size: 1.8rem;
+        padding-top: 0;
+        padding-bottom: 60px;
+        margin: 0 14vw;
+    }
+    
+    #curiosidades li {
+        margin-bottom: 10px;
+    }
+
+    #lua {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    
+    #lua img {
+        position: relative;
+        width: 80px;
+        right: 0;
+        margin-bottom: 10px;
+    }
+
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
@@ -431,6 +479,51 @@ h1 {
         padding: 60px 0;
     }
 
+    /* QUARTA SECAO */
+
+    .quadrado {
+        width: 65vw;
+        padding: 20px 0;
+    }
+
+    .quadrado p {
+        font-size: 2.2rem;
+    }
+
+    #box {
+        width: 75vw;
+    }
+
+    #box img {
+        width: 45px;
+    }
+
+    #box h3 {
+        font-size: 3rem;
+    }
+
+    /* QUINTA SECAO */
+
+    #curiosidades ul {
+        font-size: 2rem;
+        padding-top: 0;
+        padding-bottom: 60px;
+        margin: 0 14vw;
+    }
+
+    #curiosidades li {
+        margin-bottom: 10px;
+    }
+
+    #lua {
+        margin: 50px 0;
+    }
+
+    #lua img {
+        width: 80px;
+        right: 8%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -498,6 +591,46 @@ h1 {
         padding: 60px 0;
     }
 
+    /* QUARTA SECAO */
+
+    .quadrado {
+        width: 65vw;
+        padding: 30px 0;
+    }
+
+    .quadrado p {
+        font-size: 2.5rem;
+    }
+
+    #box {
+        width: 75vw;
+    }
+
+    #box img {
+        width: 55px;
+    }
+
+    #box h3 {
+        font-size: 3.4rem;
+    }
+
+    /* QUINTA SECAO */
+
+    #curiosidades ul {
+        font-size: 2.5rem;
+        padding-top: 0;
+        margin: 0 14vw;
+    }
+
+    #lua {
+        margin: 80px 0;
+    }
+
+    #lua img {
+        width: 120px;
+        right: 8%;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -527,6 +660,27 @@ h1 {
 
     .descricao p:first-child {
         font-size: 2.3rem;
+    }
+
+    /* QUARTA SECAO */
+
+    .quadrado {
+        width: 65vw;
+    }
+
+    #box {
+        width: 75vw;
+    }
+
+    /* QUINTA SECAO */
+
+    #curiosidades ul {
+        font-size: 2.6rem;
+        padding-top: 0;
+    }
+
+    #lua img {
+        width: 150px;
     }
 
 }

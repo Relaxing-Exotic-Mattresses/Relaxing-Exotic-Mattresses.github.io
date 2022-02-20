@@ -1,0 +1,686 @@
+/* GLOBAL */
+
+h2 {
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* PRIMEIRA SEÇÃO */
+
+h1 {
+    font-size: 7rem;
+    color: #09157D;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#landing {
+    background-color: #CEF2F6;
+    padding-top: 100px;
+}
+
+#apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nova Round", sans-serif;
+    font-size: 7rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#apresentacao img {
+    width: 250px;
+}
+
+#slogan {
+    font-family: "Poller One", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #EFDB29;
+}
+
+#slogan > span {
+    color: #09157D;
+}
+
+/* SEGUNDA SECAO */
+
+.nuvens-secundarias {
+    display: inline-block;
+    position: relative;
+}
+
+.nuvens-secundarias div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 170px;
+}
+
+.nuvens-secundarias p {
+    font-size: 1.8rem;
+}
+
+.nuvens-secundarias:first-child {
+    background-image: url("../midias/nuvem-secundaria1.svg");
+    left: 8%;
+}
+
+.nuvens-secundarias:last-child {
+    background-image: url("../midias/nuvem-secundaria2.svg");
+}
+
+#quem-somos {
+    background-color: #ACE8F0;
+    margin-top: -5px;
+}
+
+#quem-somos div {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding: 40px 0;
+}
+
+#quem-somos p {
+    text-align: center;
+}
+
+#nuvem-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    background-image: url("../midias/nuvem-principal.svg");
+}
+
+#nuvem-principal p {
+    font-size: 2.5rem;
+    width: calc(750px * 1.2);
+    margin-top: 50px;
+}
+
+#destaque {
+    font-weight: bold;
+    color: #09157D;
+}
+
+#ultima-nuvem {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+/* TEERCEIRA SECAO */
+
+.acontecimento {
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+}
+
+.acontecimento:nth-child(even) .descricao {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.acontecimento > div:not(.divisao) {
+    padding: 15px 0;
+}
+
+.acontecimento img, .acontecimento p {
+    width: 40%;
+    min-width: 120px;
+    max-width: 600px;
+}
+
+.imagem-ilustrativa {
+    display: flex;
+    justify-content: center;
+}
+
+.divisao {
+    background-color: black;
+    height: 100%;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao p {
+    font-size: 2.3rem;
+    margin: 0 12.5%;
+}
+
+.descricao p:first-child {
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #09157D;
+    margin-bottom: 20px;
+}
+
+#nossa-historia {
+    background-color: #A7D0F5;
+}
+
+#linha-do-tempo {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+/* QUARTA SECAO */
+
+.quadrado {
+    display: flex;
+    width: 55vw;
+    background-color: #ACE8F0;
+    border-radius: 30px;
+    border: solid 5px #09157D;
+    padding: 40px 0;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.quadrado p {
+    color: black;
+    font-size: 3rem;
+    margin: auto;
+    padding: 15px;
+}
+
+#portfolio {
+    background-color: #8aaae8;
+    padding-bottom: 80px;
+}
+
+#portfolio h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    background-color: #09157D;
+    border-radius: 140px;
+    margin: auto;
+}
+
+#box img {
+    width: 70px;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+#box h3 {
+    font-size: 4rem;
+    color: #EFDB29;
+}
+
+/* QUINTA SECAO */
+
+#curiosidades {
+    background-color:#486EB8;
+} 
+
+#curiosidades h2 {
+    color:white;
+    padding: 0;
+}
+
+#curiosidades ul {
+    list-style-image: url("../midias/estrela.svg");
+    font-size: 3rem;
+    color: white;
+    padding: 80px 0;
+    margin: 0 18vw;
+}
+
+#curiosidades li {
+    margin-bottom: 20px;
+}
+
+#lua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 120px 0;
+}
+
+#lua h2 {
+    justify-self: center;
+}
+
+#lua img {
+    position: absolute;
+    right: 10%;
+    width: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+
+    /* GLOBAL */
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    /* PRIMEIRA SECAO */
+
+    h1 {
+        font-size: 3.2rem;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    #apresentacao {
+        font-size: 3.2rem;
+        margin-bottom: 15px;
+    }
+
+    #apresentacao img {
+        width: 80px;
+    }
+
+    #slogan {
+        font-size: 1.5rem;
+    }
+
+    /* SEGUNDA SECAO */
+
+    .nuvens-secundarias div {
+        width: 160px;
+        height: 100px;
+    }
+    
+    .nuvens-secundarias p {
+        font-size: 1.2rem;
+    }
+
+    #quem-somos div {
+        padding: 20px 0;
+    }
+
+    #quem-somos #nuvem-principal {
+        background-size: cover;
+        height: 350px;
+    }
+
+    #nuvem-principal p {
+        font-size: 1.6rem;
+        width: calc(350px * 1.2);
+        padding: 0 10px;
+        margin-top: 25px;
+    }
+
+    #apenas-maiores {
+        display: none;
+    }
+
+    /* TERCEIRA SECAO */
+
+    .acontecimento > div:not(.divisao) {
+        padding: 30px 0;
+    }
+
+    .acontecimento img, .acontecimento p {
+        width: 50%;
+    }
+
+    .descricao p {
+        font-size: 1.5rem;
+    }
+
+    .descricao p:first-child {
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+
+    #linha-do-tempo {
+        padding: 40px 0;
+    }
+
+    /* QUARTA SECAO */
+
+    .quadrado {
+        width: 70vw;
+        padding: 10px 0;
+    }
+
+    .quadrado p {
+        font-size: 2rem;
+    }
+
+    #box {
+        width: 80vw;
+    }
+
+    #box img {
+        width: 35px;
+    }
+
+    #box h3 {
+        font-size: 2.7rem;
+    }
+    
+    /* QUINTA SECAO  */
+
+    #curiosidades ul {
+        font-size: 1.8rem;
+        padding-top: 0;
+        padding-bottom: 60px;
+        margin: 0 14vw;
+    }
+    
+    #curiosidades li {
+        margin-bottom: 10px;
+    }
+
+    #lua {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    
+    #lua img {
+        position: relative;
+        width: 80px;
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+    /* GLOBAL */
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    /* PRIMEIRA SECAO */
+
+    h1 {
+        font-size: 4.5rem;
+        margin-left: 40px;
+    }
+
+    #apresentacao {
+        font-size: 4.5rem;
+        margin-bottom: 15px;
+    }
+
+    #apresentacao img {
+        width: 130px;
+    }
+
+    #slogan {
+        font-size: 2rem;
+    }
+
+    /* SEGUNDA SECAO */
+
+    .nuvens-secundarias div {
+        width: 190px;
+        height: 130px;
+    }
+    
+    .nuvens-secundarias p {
+        font-size: 1.4rem;
+    }
+
+    #quem-somos div {
+        padding: 20px 0;
+    }
+
+    #nuvem-principal {
+        height: 350px;
+    }
+
+    #nuvem-principal p {
+        font-size: 1.9rem;
+        width: calc(350px * 1.2);
+        margin-top: 25px;
+    }
+
+    #apenas-maiores {
+        display: none;
+    }
+
+    /* TERCEIRA SECAO */
+
+    .acontecimento > div:not(.divisao) {
+        padding: 30px 0;
+    }
+
+    .acontecimento img, .acontecimento p {
+        width: 50%;
+    }
+
+    .descricao p {
+        font-size: 1.6rem;
+    }
+
+    .descricao p:first-child {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    #linha-do-tempo {
+        padding: 60px 0;
+    }
+
+    /* QUARTA SECAO */
+
+    .quadrado {
+        width: 65vw;
+        padding: 20px 0;
+    }
+
+    .quadrado p {
+        font-size: 2.2rem;
+    }
+
+    #box {
+        width: 75vw;
+    }
+
+    #box img {
+        width: 45px;
+    }
+
+    #box h3 {
+        font-size: 3rem;
+    }
+
+    /* QUINTA SECAO */
+
+    #curiosidades ul {
+        font-size: 2rem;
+        padding-top: 0;
+        padding-bottom: 60px;
+        margin: 0 14vw;
+    }
+
+    #curiosidades li {
+        margin-bottom: 10px;
+    }
+
+    #lua {
+        margin: 50px 0;
+    }
+
+    #lua img {
+        width: 80px;
+        right: 8%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* GLOBAL */
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    /* PRIMEIRA SECAO */
+
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    #apresentacao {
+        font-size: 5.5rem;
+    }
+
+    #apresentacao img {
+        width: 180px;
+    }
+
+    #slogan {
+        font-size: 2.5rem;
+    }
+
+    /* SEGUNDA SECAO */
+
+    #quem-somos div {
+        padding: 20px 0;
+    }
+
+    #nuvem-principal {
+        height: 450px;
+    }
+
+    #nuvem-principal p {
+        font-size: 2.2rem;
+        width: calc(450px * 1.2);
+    }
+
+    #apenas-maiores {
+        display: none;
+    }
+
+    /* TERCEIRA SECAO */
+
+    .acontecimento > div:not(.divisao) {
+        padding: 25px 0;
+    }
+
+
+    .descricao p {
+        font-size: 1.7rem;
+    }
+
+    .descricao p:first-child {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    #linha-do-tempo {
+        padding: 60px 0;
+    }
+
+    /* QUARTA SECAO */
+
+    .quadrado {
+        width: 65vw;
+        padding: 30px 0;
+    }
+
+    .quadrado p {
+        font-size: 2.5rem;
+    }
+
+    #box {
+        width: 75vw;
+    }
+
+    #box img {
+        width: 55px;
+    }
+
+    #box h3 {
+        font-size: 3.4rem;
+    }
+
+    /* QUINTA SECAO */
+
+    #curiosidades ul {
+        font-size: 2.5rem;
+        padding-top: 0;
+        margin: 0 14vw;
+    }
+
+    #lua {
+        margin: 80px 0;
+    }
+
+    #lua img {
+        width: 120px;
+        right: 8%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* PRIMEIRA SECAO */
+
+    /* SEGUNDA SECAO */
+
+    #quem-somos div {
+        padding: 20px 0;
+    }
+
+    #nuvem-principal {
+        height: 600px;
+    }
+
+    #nuvem-principal p {
+        font-size: 2.2rem;
+        width: calc(600px * 1.2);
+    }
+
+    /* TERCEIRA SECAO */
+
+    .descricao p {
+        font-size: 2rem;
+    }
+
+    .descricao p:first-child {
+        font-size: 2.3rem;
+    }
+
+    /* QUARTA SECAO */
+
+    .quadrado {
+        width: 65vw;
+    }
+
+    #box {
+        width: 75vw;
+    }
+
+    /* QUINTA SECAO */
+
+    #curiosidades ul {
+        font-size: 2.6rem;
+        padding-top: 0;
+    }
+
+    #lua img {
+        width: 150px;
+    }
+
+}

@@ -10,3 +10,5 @@
         <p> - Recorrendo a página de contato contida no site. </p>
          <h2> Quem mantém e contribui com o projeto? </h2>
          - Esse projeto foi elaborado por estudantes do curso de Análise e Desenvolvimento de Sistemas (ADS): Álvaro Renan, Caio Pinheiro e Débora Camilly.
+         
+* Destacamos que esta se trata de uma empresa fictícia e as informações presentes no projeto são apenas para fins didáticos, não são verdadeiras.

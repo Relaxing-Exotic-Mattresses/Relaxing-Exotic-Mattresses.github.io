@@ -19,8 +19,6 @@ function cores() {
     } else {
         alteraFundo(corpo, "#091582");
 
-        let alteraCor = (elemento, cor) => elemento.style.backgroundColor = cor;
-
         let mudanca = (sequencia, cor, funcao) => {
             for (let i = 0; i<sequencia.length; i++){
                 if (sequencia[i].length) {

@@ -1,25 +1,24 @@
-<svg width="339" height="266" viewBox="0 0 339 266" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="2.5" y1="87.5" x2="2.5" y2="265.5" stroke="#EFDB29" stroke-linecap="round"/>
-<line x1="2" y1="223.5" x2="338" y2="223.5" stroke="#EFDB29"/>
-<line x1="337.5" y1="223.5" x2="337.5" y2="265.5" stroke="#EFDB29" stroke-linecap="round"/>
-<line x1="337.5" y1="223.5" x2="337.5" y2="168.5" stroke="#EFDB29" stroke-linecap="round"/>
-<line x1="107.5" y1="224" x2="107.5" y2="137" stroke="#EFDB29"/>
-<line x1="143.5" y1="224" x2="143.5" y2="137" stroke="#EFDB29"/>
-<line x1="2" y1="167.5" x2="108" y2="167.5" stroke="#EFDB29"/>
-<path d="M63.5 136.5H309" stroke="#EFDB29" stroke-linecap="square"/>
-<path d="M309 137C311.759 160.295 319.681 163.197 337.516 168.485" stroke="#EFDB29" stroke-linecap="round"/>
-<path d="M64 136.5C48.5 137 45.5 156 49 167.5" stroke="#EFDB29"/>
-<path d="M2.49411 141.924C2.1657 176.848 10 163.5 26.0001 167.5" stroke="#EFDB29"/>
-<path d="M2.45582 127.795C22.0002 127.795 34.0001 148.5 26 167.5" stroke="#EFDB29"/>
-<circle cx="35" cy="122" r="19.5" stroke="#EFDB29"/>
-<line x1="60" y1="82.5" x2="79" y2="82.5" stroke="#EFDB29"/>
-<line x1="60" y1="99.5" x2="79" y2="99.5" stroke="#EFDB29"/>
-<line x1="59.6666" y1="99.6274" x2="78.6666" y2="82.6274" stroke="#EFDB29"/>
-<line x1="128" y1="38.5" x2="154" y2="38.5" stroke="#EFDB29"/>
-<line x1="128" y1="61.5" x2="154" y2="61.5" stroke="#EFDB29"/>
-<line x1="127.669" y1="61.6255" x2="153.669" y2="38.6255" stroke="#EFDB29"/>
-<line x1="92" y1="61.5" x2="116" y2="61.5" stroke="#EFDB29"/>
-<line x1="92" y1="82.5" x2="116" y2="82.5" stroke="#EFDB29"/>
-<line x1="91.6707" y1="82.6237" x2="115.671" y2="61.6237" stroke="#EFDB29"/>
-<path d="M238.222 57.3333C239.857 59.0941 242.753 61.4502 246.563 63.1314C251.251 65.2005 257.298 66.2366 264.07 63.9043C277.611 59.2403 284.635 43.8405 279.686 29.4713C275.26 16.6216 262.922 8.1945 249.06 8.84936C255.088 9.89109 259.756 13.0217 263.005 17.2415C267.104 22.5656 268.931 29.6026 268.432 36.3265C267.933 43.0509 265.102 49.5144 259.818 53.6518C254.781 57.5956 247.584 59.3729 238.222 57.3333Z" stroke="#EFDB29"/>
+<svg width="303" height="271" viewBox="0 0 303 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="2.59998" y1="92.5" x2="2.59998" y2="266.5" stroke="#EFDB29" stroke-width="5" stroke-linecap="round"/>
+<line y1="224.5" x2="302" y2="224.5" stroke="#EFDB29" stroke-width="5"/>
+<line x1="299.5" y1="227.5" x2="299.5" y2="268.5" stroke="#EFDB29" stroke-width="5" stroke-linecap="round"/>
+<line x1="299.596" y1="225.504" x2="299.503" y2="172.504" stroke="#EFDB29" stroke-width="5" stroke-linecap="round"/>
+<line x1="103.6" y1="227" x2="103.6" y2="140" stroke="#EFDB29" stroke-width="5"/>
+<line x1="139.6" y1="227" x2="139.6" y2="140" stroke="#EFDB29" stroke-width="5"/>
+<line x1="0.0999756" y1="168.5" x2="106.1" y2="168.5" stroke="#EFDB29" stroke-width="5"/>
+<path d="M61.6 139.5L268 140" stroke="#EFDB29" stroke-width="5" stroke-linecap="square"/>
+<path d="M270.662 140C273.421 163.295 281.343 166.197 299.178 171.485" stroke="#EFDB29" stroke-width="5" stroke-linecap="round"/>
+<path d="M62.1 139.5C46.6 140 43.6 159 47.1 170.5" stroke="#EFDB29" stroke-width="5"/>
+<path d="M0.555794 130.795C20.1001 130.795 32.1001 151.5 24.1 170.5" stroke="#EFDB29" stroke-width="5"/>
+<circle cx="33.1" cy="125" r="17.5" stroke="#EFDB29" stroke-width="5"/>
+<line x1="58.1" y1="83.5" x2="77.1" y2="83.5" stroke="#EFDB29" stroke-width="5"/>
+<line x1="58.1" y1="100.5" x2="77.1" y2="100.5" stroke="#EFDB29" stroke-width="5"/>
+<line x1="56.433" y1="101.137" x2="75.433" y2="84.1369" stroke="#EFDB29" stroke-width="5"/>
+<line x1="126.1" y1="39.5" x2="152.1" y2="39.5" stroke="#EFDB29" stroke-width="5"/>
+<line x1="126.1" y1="62.5" x2="152.1" y2="62.5" stroke="#EFDB29" stroke-width="5"/>
+<line x1="124.444" y1="63.1275" x2="150.444" y2="40.1275" stroke="#EFDB29" stroke-width="5"/>
+<line x1="90.1" y1="62.5" x2="114.1" y2="62.5" stroke="#EFDB29" stroke-width="5"/>
+<line x1="90.1" y1="83.5" x2="114.1" y2="83.5" stroke="#EFDB29" stroke-width="5"/>
+<line x1="88.4537" y1="84.1186" x2="112.454" y2="63.1186" stroke="#EFDB29" stroke-width="5"/>
+<path d="M256.218 30.6824C254.202 24.3448 248.581 17.0271 240.718 12.3766C242.149 14.7544 243.268 17.3626 244.077 20.0754C246.077 26.7836 246.249 34.3499 244.395 41.1983C242.54 48.0564 238.604 54.3406 232.266 58.1931C228.525 60.4671 224.065 61.8226 218.9 62.0144C219.403 62.1796 219.923 62.3376 220.46 62.4867C226.523 64.1707 234.673 64.7049 244.126 61.6551C251.323 58.5943 255.079 53.4653 256.713 47.8615C258.382 42.136 257.853 35.8184 256.218 30.6824Z" stroke="#EFDB29" stroke-width="5"/>
 </svg>
